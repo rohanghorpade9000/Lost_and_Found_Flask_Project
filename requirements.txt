@@ -1,0 +1,22 @@
+# Flask & Extensions
+Flask==3.0.0               # Core Flask framework
+Flask-PyMongo==2.3.0       # MongoDB integration with Flask
+Flask-Cors==4.0.0          # Enable CORS for API access
+
+# Database & Environment
+pymongo==4.6.0             # MongoDB client for Python
+python-dotenv==1.0.0       # Load environment variables from .env file
+
+# Authentication & Security
+bcrypt==4.0.1              # Password hashing for secure authentication
+pyjwt==2.8.0               # JWT token authentication
+
+# String Matching for Item Matching
+fuzzywuzzy==0.18.0         # Fuzzy string matching for item descriptions
+python-Levenshtein==0.23.0 # Required for fuzzywuzzy to work efficiently
+
+# Email Handling
+smtplib3==1.0.0            # SMTP for sending emails (alternative to built-in smtplib)
+
+# Cloudinary for Image Uploads
+cloudinary==1.36.0         # Cloudinary API for image uploads
