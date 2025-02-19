@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 from app.config import db
-from app.routes.users_routes import token_required
+from app.jwt_token import token_required
 from fuzzywuzzy import fuzz
 
 search_bp = Blueprint("search", __name__)
